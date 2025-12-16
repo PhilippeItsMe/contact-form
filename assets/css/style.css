@@ -134,7 +134,7 @@ fieldset {
 }
 
 .border {
-    display: block-inline;
+    display: inline-block;
     width: 50%;
     border: 1px solid var(--grey500);
     padding: 0.5rem 1rem;
