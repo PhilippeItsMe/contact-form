@@ -16,7 +16,7 @@
 <body>
     <main>
         <h1>Contact US</h1>
-        <form action="https://formdump.codeinstitute.net" method="post">
+        <form action="https://formdump.codeinstitute.net" method="post" novalidate>
             <div>
                 <div>
                     <label for="first-name">First Name *</label>
@@ -46,6 +46,7 @@
                 </label>
             </fieldset>
             <p id="query-error" class="error-message">Please select a query type</p>
+            
             <label for="message">Message *</label>
             <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
             <p id="message-error" class="error-message">This field is required</p>

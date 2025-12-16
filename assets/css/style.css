@@ -43,7 +43,13 @@ p {
 }
 
 .error-message {
+    display: none;
+}
+
+.error-message-visible {
+    display: block !important;
     color: var(--red);
+    font-size: 0.8rem;
 }
 
 
@@ -157,4 +163,18 @@ fieldset label {
 
 input[type="radio"], input[type="checkbox"] {
     accent-color: var(--green600);
+}
+
+/* -------------------- Responsivness --------------------*/
+
+@media screen and (max-width: 800px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faq {
+        width: 90%;
+    }
 }
